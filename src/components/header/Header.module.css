@@ -1,0 +1,25 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    width: 100%;
+    z-index: 20;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 3rem;
+    border-bottom: 1px solid #e5e7eb; /* Equivalent to Tailwind's border-b */
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb; /* Equivalent to Tailwind's bg-gray-200 */
+}
+.navbar {
+    background-color: #f8f9fa;
+    height: 48px;
+  }
+  
+.link {
+    font-size: 0.875rem; /* Equivalent to Tailwind's text-sm */
+    color: #2563eb; /* Equivalent to Tailwind's text-blue-600 */
+    text-decoration: underline;
+}
